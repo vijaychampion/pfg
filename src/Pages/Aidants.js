@@ -15,8 +15,8 @@ function Aidants() {
   } = AidantsData?.[0] || {};
 
   return (
-    <div className="max-w-7xl m-auto flex">
-      <div className="w-72 border-r border-black mr-10 pr-10">
+    <div className="max-w-7xl m-auto flex flex-col sm:flex-row py-10 lg:py-20 px-7">
+      <div className="w-full sm:w-72 border-b sm:border-r border-black mb-5 sm:mr-10 sm:mb-0 sm:pr-10">
         <PageSidebar data={sidebarLinks} />
       </div>
 
