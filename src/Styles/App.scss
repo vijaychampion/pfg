@@ -1,0 +1,65 @@
+/*-----------------------------------------------------------------
+[Legal Notice]
+
+Copyright (c) PromtsForGood
+Website Template by Vijay Bhatiya (www.vijaybhatiya.com)
+http://www.vijaybhatiya.com
+-------------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.writing-vertical-lr {
+  writing-mode: vertical-lr;
+}
+
+@media only screen and (max-width: 600px) {
+  .writing-vertical-lr {
+    writing-mode: unset;
+  }
+}
+
+@layer utilities {
+  @font-face {
+    font-family: "Trade Gothic LT Bold";
+    src: url("../Fonts/TradeGothicLTBold.eot");
+    src: local("☺"), url("../Fonts/TradeGothicLTBold.woff") format("woff"),
+      url("../Fonts/TradeGothicLTBold.ttf") format("truetype"),
+      url("../Fonts/TradeGothicLTBold.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Blacker Sans Text";
+    src: url("../Fonts/BlackerSansText.eot");
+    src: local("☺"), url("../Fonts/BlackerSansText.woff") format("woff"),
+      url("../Fonts/BlackerSansText.ttf") format("truetype"),
+      url("../Fonts/BlackerSansText.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  html,
+  body {
+    @apply w-full h-full;
+    background-color: #F0EEE8;
+  }
+
+  a {
+    @apply font-semibold underline hover:no-underline;
+  }
+
+  #root {
+    @apply w-full h-full;
+  }
+
+  body {
+    font-family: "Inter";
+    @apply relative;
+  }
+
+}
