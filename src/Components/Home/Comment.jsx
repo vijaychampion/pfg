@@ -8,8 +8,8 @@ function Comments() {
 
   return (
     <div className="bg-[#f9f8f5]">
-      <div className="max-w-7xl m-auto py-10 lg:py-20 px-7">
-        <SectionTitle title={title} additionalClass="mb-6" />
+      <div className="max-w-7xl m-auto py-10 lg:py-20 px-10">
+        <SectionTitle title={title} additionalClass="mb-8" />
 
         {content.map((paragraph, index) => (
           <Paragraph key={index} paraText={paragraph} additionalClass="mb-8" />

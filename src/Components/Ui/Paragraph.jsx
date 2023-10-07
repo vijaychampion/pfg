@@ -1,7 +1,7 @@
 import React from "react";
 
 function Paragraph({ paraText, additionalClass }) {
-  const baseClasses = "text-base lg:text-lg";
+  const baseClasses = "text-sm lg:text-base";
   const combinedClasses = additionalClass
     ? `${baseClasses} ${additionalClass}`
     : baseClasses;

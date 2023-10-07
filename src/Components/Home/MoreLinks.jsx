@@ -10,7 +10,7 @@ function MoreLinks() {
       {HomeLinks.map((item) => (
         <div
           key={item.id}
-          className="flex flex-col lg:flex-row gap-2 lg:gap-3 py-4 sm:py-8 items-end relative"
+          className="flex flex-col lg:flex-row gap-2 lg:gap-3 py-4 sm:py-8 items-end relative group"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="200"
@@ -21,11 +21,11 @@ function MoreLinks() {
             to={item.ulr}
             className="inline-flex gap-3 no-underline w-full md:w-auto"
           >
-            <span className="absolute left-0 bottom-0 w-full lg:w-36 h-[1px] bg-black"></span>
+            <span className="absolute left-0 bottom-0 w-full lg:w-36 h-[1px] bg-black group-hover:lg:w-full group-hover:bg-yellow-600 transition-all duration-300"></span>
             <i className="w-6 lg:w-8 h-6 lg:h-8 rounded-full border border-black flex flex-col items-center justify-center mt-0.5">
               <RightArrow size="13px" color="#000000" />
             </i>
-            <h4 className="text-xl lg:text-4xl font-bold uppercase font-gothic">
+            <h4 className="text-xl lg:text-3xl font-bold uppercase font-gothic">
               {item.title}
             </h4>
           </Link>

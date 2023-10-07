@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import GoogleBard from "../Icons/GoogleBard";
-import Pi from "../Icons/Pi";
+// import GoogleBard from "../Icons/GoogleBard";
+// import Pi from "../Icons/Pi";
 import ChatGPT from "../Icons/ChatGPT";
 import LinkButton from "../Ui/LinkButton";
 import CopyButton from "../Ui/CopyButton";
@@ -26,16 +26,16 @@ function BlockItemActions({ blockTitleRef }) {
             text="Chat Gpt"
             icon={<ChatGPT size="20" color="#000000" />}
           />
-          <LinkButton
+          {/* <LinkButton
             link="https://pi.ai/"
             text="Pi"
             icon={<Pi size="20" color="#000000" />}
-          />
-          <LinkButton
+          /> */}
+          {/* <LinkButton
             link="https://bard.google.com/"
             text="Google Bard"
             icon={<GoogleBard size="20" color="#000000" />}
-          />
+          /> */}
         </div>
       </div>
     </Fragment>
