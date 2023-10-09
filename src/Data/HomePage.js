@@ -2,7 +2,7 @@ export const HeroContent = {
   title: "Prompts For Good",
   subtitle: "Utilisez l'intelligence artificielle pour vous faciliter la vie",
   content: [
-    "<strong>prompt, nom masculin (mot anglais)</strong> : requête formulée à des intelligences artificielles comme <strong>ChatGPT, Bard, etc.</strong> <br />Pour obtenir la meilleure réponse possible",
+    "<strong>prompt, nom masculin (mot anglais)</strong> : requête formulée à des intelligences artificielles comme <strong>ChatGPT, Bard, etc.</strong> <br />pour obtenir la meilleure réponse possible",
     "Explorez notre bibliothèque de <strong>prompts d'intérêt général</strong>, co-construits avec des experts et les citoyens !",
   ],
 };
@@ -25,14 +25,14 @@ export const HomeLinks = [
     id: "3",
     title: "ENVIRONNEMENT",
     content:
-      "Pour les individus, pour les entreprises, et pour les activistes.",
+      "Pour les individus, les organisations et le service public",
     ulr: "/environment",
   },
   {
     id: "4",
     title: "Aidants",
     content:
-      "Pour les aidants professionnels, pour les aidants familiaux, et pour les aidants bénévoles.",
+      "Pour les professionnels, pour les familiaux, et pour les bénévoles.",
     ulr: "/aidants",
   },
   {
@@ -46,7 +46,7 @@ export const HomeLinks = [
 export const HomeComments = {
   title: "Comment sont développés les prompts ?",
   content: [
-    "Nos prompts sont pensés, rédigés et construits avec des experts, des citoyens passionnés de la communauté de <a href='https://www.lareserve.tech/' target='_blank'>LaReserve.tech</a> et de l'ONG Bayes Impact, et des membres des services publics. Chacun de nos prompts est le fruit de l'expertise d'individus hautement qualifiés dans leur domaine et de citoyens désireux d'apporter leur bon sens à tous ceux qui en formulent le besoin.",
+    "Chacun de nos prompts est le fruit de l'expertise d'individus hautement qualifiés dans leur domaine et de citoyens désireux d'apporter leur bon sens. Ils font partie du réseau de l'ONG Bayes Impact et de son programme de mobilisation citoyenne <a href='https://www.lareserve.tech/' target='_blank'>LaReserve.tech</a>.",
     "Vous êtes également invité à rejoindre notre communauté de contributeurs. Si vous êtes expert dans un domaine spécifique ou souhaitez simplement participer à l'écriture d'un ou de plusieurs prompts, n'hésitez pas à nous écrire à <a href='mailto:hello@bayesimpact.org'>hello@bayesimpact.org</a>.",
   ],
 };

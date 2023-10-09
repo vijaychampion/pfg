@@ -8,12 +8,12 @@ function Footer() {
         <div className="text-2xl lg:text-4xl">
           <span className="font-bold">Prompts</span>forGood
         </div>
-        <div className="text-base lg:text-xl">Contact</div>
         <div className="text-base lg:text-xl">
           <strong>Prompts</strong>forGood est une initiative de l'ONG Bayes
           Impact
         </div>
-        <div className="mt-8 lg:mt-14 mb-3 lg:mb-5">
+        <div className="text-base lg:text-xl mt-6 lg:mt-8">Contact</div>
+        <div className="mt-6 lg:mt-8 mb-3 lg:mb-5">
           <Link to="/terms-of-use" className="block md:inline-block">Conditions d'utilisation</Link> &{" "}
           <Link to="/privacy-policy" className="block md:inline-block">Politique de confidentialité</Link>
         </div>
