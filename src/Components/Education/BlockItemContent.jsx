@@ -1,27 +1,14 @@
-import React, {
-  Fragment,
-  useEffect,
-  useImperativeHandle,
-  useState,
-} from "react";
+import React, { Fragment, useState } from "react";
 import DownArrow from "../Icons/DownArrow";
 import Paragraph from "../Ui/Paragraph";
 
-const BlockItemContent = React.forwardRef(({ item }, ref) => {
+function BlockItemContent({ item }) {
   const { title, content } = item;
   const [showFull, setShowFull] = useState(false);
-
-  useImperativeHandle(ref, () => ({
-    getTitleText: () => title,
-  }));
 
   const handleToggle = () => {
     setShowFull(!showFull);
   };
-
-  useEffect(() => {
-    ref.current.getTitleText = () => title;
-  }, [title, ref]);
 
   return (
     <Fragment>
@@ -30,7 +17,7 @@ const BlockItemContent = React.forwardRef(({ item }, ref) => {
 
         <div
           className={`content relative ${
-            showFull ? "max-h-full" : "max-h-56 overflow-hidden"
+            showFull ? "max-h-full" : "max-h-48 overflow-hidden"
           }`}
         >
           {content.map((paragraph, index) => (
@@ -43,7 +30,7 @@ const BlockItemContent = React.forwardRef(({ item }, ref) => {
 
           {!showFull && (
             <span
-              className="absolute right-0 bottom-0 md:bottom-0.5 px-2 md:py-1 bg-white"
+              className="absolute right-0 bottom-0 px-2 bg-white"
               data-aos="fade-up"
               data-aos-duration="900"
               data-aos-delay="200"
@@ -70,6 +57,6 @@ const BlockItemContent = React.forwardRef(({ item }, ref) => {
       </button>
     </Fragment>
   );
-});
+}
 
 export default BlockItemContent;

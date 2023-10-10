@@ -6,11 +6,11 @@ import LinkButton from "../Ui/LinkButton";
 import CopyButton from "../Ui/CopyButton";
 import ShareButton from "../Ui/ShareButton";
 
-function BlockItemActions({ blockTitleRef }) {
+function BlockItemActions({ title, gptLink }) {
   return (
     <Fragment>
       <div className="w-full flex flex-row md:flex-col justify-center">
-        <CopyButton blockTitleRef={blockTitleRef} />
+        <CopyButton title={title} />
         <ShareButton />
       </div>
 
@@ -22,7 +22,7 @@ function BlockItemActions({ blockTitleRef }) {
 
         <div className="flex flex-row md:flex-col gap-1.5 mt-1">
           <LinkButton
-            link="https://chat.openai.com/"
+            link={gptLink}
             text="Chat Gpt"
             icon={<ChatGPT size="20" color="#000000" />}
           />
