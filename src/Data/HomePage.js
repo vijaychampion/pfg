@@ -2,7 +2,7 @@ export const HeroContent = {
   title: "Prompts For Good",
   subtitle: "Utilisez l'intelligence artificielle pour vous faciliter la vie",
   content: [
-    "<strong>prompt, nom masculin (mot anglais)</strong> : requête formulée à des intelligences artificielles comme <strong>ChatGPT, Bard, etc.</strong> <br />pour obtenir la meilleure réponse possible",
+    "<strong>prompt, <i>nom masculin</i> (mot anglais)</strong> : requête formulée à des intelligences artificielles comme <strong>ChatGPT, Bard, etc.</strong> <br />pour obtenir la meilleure réponse possible",
     "Explorez notre bibliothèque de <strong>prompts d'intérêt général</strong>, co-construits avec des experts et les citoyens !",
   ],
 };

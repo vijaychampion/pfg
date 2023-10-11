@@ -39,7 +39,7 @@ function Hero({ onScrollToMoreLinks }) {
         data-aos-offset="200"
         data-aos-once="true"
       >
-        <strong>prompt, nom masculin (mot anglais)</strong>:
+        <strong>prompt, <i>nom masculin</i> (mot anglais)</strong>:
         <span className="text-left">requête formulée à des intelligences artificielles comme <strong>ChatGPT, Bard, etc.</strong> <br />pour obtenir la meilleure réponse possible</span>
       </p>
       <p

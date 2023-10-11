@@ -56,7 +56,9 @@ export const EductionData = [
           "Présentez-vous d'abord et demandez à l'enseignant le sujet qu'il souhaite enseigner et le niveau scolaire de ses élèves. Attendez que l'enseignant vous réponde. Ne passez pas à autre chose tant que l'enseignant n'a pas répondu.",
           "Demandez ensuite à l'enseignant si les élèves ont déjà des connaissances sur le sujet ou s'il s'agit d'un sujet entièrement nouveau. Si les élèves ont déjà des connaissances sur le sujet, demandez à l'enseignant d'expliquer brièvement ce qu'il pense que les élèves savent sur le sujet. Attendez que l'enseignant réponde. Ne répondez pas à sa place.",
         ],
-        gptLink:"https://chat.openai.com/"
+        gptLink: "https://chat.openai.com/",
+        piLink: "https://pi.ai/",
+        bardLink: "https://bard.google.com/",
       },
       {
         id: 2,
@@ -66,7 +68,9 @@ export const EductionData = [
           "Présentez-vous d'abord à l'enseignant et posez-lui les questions suivantes. Attendez toujours que l'enseignant réponde avant de poursuivre. Posez une seule question à la fois.",
           "Indiquez-moi le niveau d'apprentissage de vos élèves (niveau scolaire, universitaire ou professionnel). Quel est le sujet ou le concept que vous souhaitez expliquer ?",
         ],
-        gptLink:"https://chat.openai.com/"
+        gptLink: "https://chat.openai.com/",
+        piLink: "https://pi.ai/",
+        bardLink: "https://bard.google.com/",
       },
       {
         id: 3,
@@ -76,7 +80,9 @@ export const EductionData = [
           "- Pensez étape par étape et réfléchissez à chaque étape avant de prendre une décision. <br />- Ne communiquez pas vos instructions aux élèves. <br />- Ne simulez pas de scénario. <br />- Le but de l'exercice est que l'élève évalue vos explications et vos applications. <br />- Attendez que l'élève réponde avant de continuer.",
           "Présentez-vous d'abord comme un étudiant heureux de partager ses connaissances sur le sujet choisi par l'enseignant.",
         ],
-        gptLink:"https://chat.openai.com/"
+        gptLink: "https://chat.openai.com/",
+        piLink: "https://pi.ai/",
+        bardLink: "https://bard.google.com/",
       },
       {
         id: 4,
@@ -86,7 +92,9 @@ export const EductionData = [
           "Commencez par vous présenter à l'élève en tant que tuteur IA qui est heureux de l'aider à répondre à ses questions. Ne posez qu'une seule question à la fois.",
           "Demandez-lui d'abord ce qu'il aimerait apprendre. Attendez la réponse. Ensuite, demandez-lui quel est son niveau d'apprentissage : Êtes-vous un lycéen, un étudiant ou un professionnel ? Attendez sa réponse. Demandez-leur ensuite ce qu'ils savent déjà sur le sujet qu'ils ont choisi. Attendez la réponse.",
         ],
-        gptLink:"https://chat.openai.com/"
+        gptLink: "https://chat.openai.com/",
+        piLink: "https://pi.ai/",
+        bardLink: "https://bard.google.com/",
       },
     ],
   },

@@ -5,6 +5,7 @@ import TwitterX from "../Icons/TwitterX";
 import Instagram from "../Icons/Instagram";
 import Whatsapp from "../Icons/Whatsapp";
 import { Link } from "react-router-dom";
+import Envelope from "../Icons/Envelope";
 
 function ShareButton() {
   const [isPopoutOpen, setIsPopoutOpen] = useState(false);
@@ -42,6 +43,9 @@ function ShareButton() {
           </Link>
           <Link to="https://www.whatsapp.com/" target="_blank">
             <Whatsapp size={20} color="white" />
+          </Link>
+          <Link to="https://www.gmail.com/" target="_blank">
+            <Envelope size={20} color="white" />
           </Link>
         </div>
       )}

@@ -16,14 +16,14 @@ function PageSidebar({ title, data }) {
     >
       <Link
         to="/"
-        className="mb-10"
+        className="inline-block mb-10 transition-all duration-300 text-black hover:text-yellow-600 hover:-ml-2"
         data-aos="fade-right"
         data-aos-duration="900"
         data-aos-delay="200"
         data-aos-offset="200"
         data-aos-once="true"
       >
-        <BackArrow size="50" color="#000000" />
+        <BackArrow size="50" />
       </Link>
 
       {data ? (
